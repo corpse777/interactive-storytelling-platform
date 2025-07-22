@@ -150,12 +150,13 @@ This is a modern interactive storytelling platform built with React, TypeScript,
 
 ```
 Changelog:
-- July 22, 2025. Database setup completed successfully with PostgreSQL connection
-- July 22, 2025. Core database tables created (users, posts, comments, reading_progress, secret_progress, author_stats)
-- July 22, 2025. Admin user created (username: admin, password: admin123)
-- July 22, 2025. WordPress content sync working - 21 stories loaded from WordPress API
-- July 22, 2025. Application running successfully on port 3003 with web interface functional
-- July 22, 2025. Created port waiting script for workflow configuration (scripts/start-with-port-wait.js)
+- July 22, 2025. Database setup completed successfully with PostgreSQL connection via create_postgresql_database_tool
+- July 22, 2025. Core database tables created (users, posts, comments, reading_progress, secret_progress, author_stats, site_settings)
+- July 22, 2025. Admin user created (email: admin@storytelling.com, password: admin123)
+- July 22, 2025. WordPress content sync working - 21 stories loaded from WordPress API including "BLOOD", "WORD", "HUNGER", etc.
+- July 22, 2025. Application running successfully on http://0.0.0.0:3003 with full web interface functional
+- July 22, 2025. All API endpoints working properly (/api/health, /api/posts) with 24 total posts available
+- July 22, 2025. Database initialization script (npm run db:migrate) working properly with full setup completion
 - July 14, 2025. Completed comprehensive background image removal from entire website
 - July 14, 2025. Cleaned up all background image references from components, CSS, and preloaders
 - July 14, 2025. Maintained clean dark theme without background images while preserving about page profile pictures
