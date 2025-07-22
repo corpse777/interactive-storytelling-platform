@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.openssh
     pkgs.pango
     pkgs.gdk-pixbuf
     pkgs.expat
